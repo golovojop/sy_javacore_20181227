@@ -5,10 +5,9 @@ public class MyArraySizeException extends Exception {
 
     public MyArraySizeException(String _cause){
         cause = _cause;
-
     }
 
     public String toString() {
-        return "\n" + cause;
+        return cause;
     }
 }
