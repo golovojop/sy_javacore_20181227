@@ -9,6 +9,6 @@ public class MyArrayDataException extends Exception {
     }
 
     public String toString() {
-        return "\nInconsistent data type in cell [" + row + "][" + "[" + col + "]";
+        return "Inconsistent data type in cell [" + row + "][" + "[" + col + "]";
     }
 }

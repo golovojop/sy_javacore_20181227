@@ -17,14 +17,14 @@ public class Main {
 
             try {
                 switch(i) {
-                    case 0:
+                    case 0: /* Proper array and data */
                         System.out.printf("Result is %d\n", calculate2DArray(mass, 4, 4));
                         break;
-                    case 1:
+                    case 1: /* Proper array, incorrect data */
                         mass[1][2] = "a";
                         System.out.printf("Result is %d\n", calculate2DArray(mass, 4, 4));
                         break;
-                    case 2:
+                    case 2: /* Incorrect array size */
                         System.out.printf("Result is %d\n", calculate2DArray(new String[2][3], 4, 4));
                 }
             }

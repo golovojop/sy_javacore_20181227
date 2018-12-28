@@ -17,7 +17,7 @@ public class Body {
 
         for (BmiCategories bc : categories) {
             if(bc.inRange(bmi)) {
-                return result + bc.toString();
+                return result + bc;
             }
         }
         return result + "unknown";
