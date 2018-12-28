@@ -42,15 +42,15 @@ public class Main {
 
         int summ = 0;
 
-        // Check rows
+        //  Check rows
         if(arr.length != _row) throw new MyArraySizeException("Incorrect rows value");
 
-        // Check columns
+        //  Check columns
         for(String[] s : arr) {
             if(s.length != _col) throw new MyArraySizeException("Incorrect cols value");
         }
 
-        // Calculate summ
+        //  Calculate summ
         for(int row = 0; row < arr.length; row++) {
             for(int col = 0; col < arr[row].length; col++){
                 try {
